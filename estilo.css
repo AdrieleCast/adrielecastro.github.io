@@ -1,0 +1,123 @@
+body{
+  background-color: black;
+}
+
+h1{
+  color: white;
+  text-shadow: 1px 1px 6px darkmagenta, 2px 2px 20px white, 0 0 5px darkmagenta;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 6px darkmagenta, 2px 2px 20px white, 0 0 5px darkmagenta;
+}
+
+h3{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 3px 5px;
+  text-shadow: 1px 1px 6px darkmagenta, 2px 2px 20px white, 0 0 5px darkmagenta;
+}
+h4{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 3px 5px;
+  text-shadow: 1px 1px 6px darkmagenta, 2px 2px 20px white, 0 0 5px darkmagenta;
+}
+h5{
+  color: white;
+  text-shadow: 1px 1px 6px black, 2px 2px 20px white, 0 0 5px black;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+div{
+  padding: 30px;
+}
+p{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-style: italic;
+}
+
+img{
+  width: 50%;
+  box-shadow: 2px 2px 20px darkmagenta;
+  display: block;
+  margin: auto;
+}
+a{
+text-decoration: none;
+list-style: none;
+float: right;
+color: white;
+padding: 1px 7px;
+font-size: 18px;
+}
+a:link{
+  color: darkmagenta;
+}
+a:visited{
+  color: hotpink;
+}
+a:hover{
+  color: pink;
+}
+
+.logo {
+  float: left;
+  padding: 3px 5px;
+}
+
+/* Style the Cabeçalho */
+.Cabeçalho {
+  background-color: darkmagenta;
+  padding: 20px;
+  text-align: right;
+}
+
+/* Style the navigation */
+.Contatos {
+  overflow: hidden;
+  background-color: darkmagenta;
+}
+
+/* Style the Contatos links */
+.Contatos a {
+  display: block;
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  height: 50px;
+  padding: 20px;
+
+}
+
+/* Change color on hover */
+.Contatos a:hover {
+  background-color: black;
+  color: rgb(14, 9, 9);
+}
+
+.Contatos img {
+  padding: 10px 6px;
+}
+
+footer{
+  color: white;
+  font-size: 15px;
+  background-color: rgb(102, 16, 102);
+  text-align: center;
+  padding: 10px 0;
+}
